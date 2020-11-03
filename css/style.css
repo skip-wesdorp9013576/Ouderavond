@@ -251,3 +251,41 @@ span a {
     float: left;
     padding: 0px 20px;
 }
+/* Keuzedelen page Css */
+.title-keuzedelen h1 {
+    font-size: 25px;
+}
+.container-keuzedelen {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.text-keuzedelen {
+    float: left;
+}
+.text-keuzedelen p {
+
+}
+.img-keuzedelen {
+    float: left;
+    padding: 0px 20px;
+}
+/* Regels page css */
+.Regels-container {
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+}
+.Regels-Text {
+    float: left;
+}
+.Regels-Text h1 {
+    font-size: 30px;
+    padding: 5px;
+}
+.Regels-Text p {
+    font-size: 16px;
+}
+.Regels-Img {
+    float: left;
+}
