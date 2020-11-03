@@ -1,0 +1,253 @@
+/*Main css*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+/*Background css*/
+body {
+	background: linear-gradient(-45deg, hsl(14, 82%, 63%), hsl(337, 78%, 57%), hsl(196, 72%, 49%), hsl(166, 72%, 49%));
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+/*Footer css*/
+footer {
+    height: 50px;
+    display: inline;
+    text-align: center;
+}
+.footer a {
+    cursor: pointer;
+}
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.Site-content {
+    flex: 1;
+}
+/*Home page css*/
+.main-box {
+    width: 600px;
+}
+.main-title {
+    width: 400px;
+    text-align: center;
+    margin: 40px auto auto auto;
+    color:black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-desc {
+    width: 600px;
+    margin: auto;
+    color: white;
+}
+.img-box {
+    width: 100%;
+}
+.img-box img {
+    cursor: pointer;
+}
+.left {
+    float: left;
+    margin: 80px 100px;
+    width: 400px;
+    transition: 250ms;
+}
+.left:hover {
+    width: 450px;
+}
+.right {
+    margin: 80px 100px;
+    float: right;
+    border-radius: 5px;
+    border: 5px solid white;
+    transition: 250ms;
+    animation: rotatepic 8s ease infinite;
+}
+.right:hover {
+    width: 350px;
+}
+.Logo {
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+/*Contact page css*/
+.contact-img {
+    float: left;
+    margin-top: 125px;
+    text-align: center;
+    margin-left: 16.5%;
+}
+.contact-info {
+    float: left;
+    margin-top: 90px;
+    padding-left: 20px;
+}
+.contact-line {
+    border: 1px solid white;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    padding: 1px;
+}
+span a {
+    text-decoration: none;
+}
+/* Locatie page css */
+.googlemaps {
+    text-align: center;
+    margin-top: 120px;
+}
+.googlemaps h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.googlemaps h2 {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+/* studieadvies page Css */
+.bindend-container p {
+    width: 90%;
+    margin: 60px auto auto auto;
+    font-size: 16px;
+}
+.bindend-container br {
+    padding: 5px;
+}
+.bindend-container h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 28px;
+}
+.bindend-container h2 {
+    padding: 5px;
+    text-align: center;
+    font-size: 22px;
+}
+.bindend-container img {
+    float: left;
+    margin-top: 35px;
+    border: 5px solid white;
+    border-radius: 45px;
+    transform: rotate(2deg);
+}
+.img-helper {
+    width: 60%;
+    float: left;
+}
+/* Drop-menu */
+.dropbtn {
+    padding: 16px;
+    margin: 5px 10px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    border: 2px solid black;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: block;
+    background-color: orange;
+}
+.dropdown-content a.active {
+    background-color: black;
+}
+.dropdown-content a:hover {
+    background-color: black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color:  rgba(255, 255, 255, 0.75);
+}
+/* nav css code */
+.login-btn {
+    padding: 5px;
+    background-color: inherit;
+    width: 70px;
+    text-align: center;
+    border: 2px solid white;
+    margin-right: 5px;
+    font-weight: 500;
+    transition: 0.275s;
+}
+.signup-btn {
+    padding: 5px;
+    background-color: inherit;
+    width: 70px;
+    text-align: center;
+    border: 2px solid white;
+    margin-right: 5px;
+    font-weight: 500;
+    transition: 0.275s;
+}
+.login-btn:hover {
+    background-color:  rgb(117, 212, 22, 0.8);
+}
+.signup-btn:hover {
+    background-color: rgb(117, 212, 22, 0.8);
+}
+.login-container {
+    float: right;
+    padding: 5px;
+}
+/* Corona page css */
+.Corona-container {
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+}
+.Corona-Text {
+    float: left;
+}
+.Corona-Text h1 {
+    font-size: 30px;
+    padding: 5px;
+}
+.Corona-Text p {
+    font-size: 16px;
+}
+.Corona-Img {
+    float: left;
+    margin: 15px;
+    border: 2px solid white;
+}
+/* Keuzedelen page Css */
+.title-keuzedelen h1 {
+    font-size: 25px;
+}
+.container-keuzedelen {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.text-keuzedelen {
+    float: left;
+}
+.text-keuzedelen p {
+
+}
+.img-keuzedelen {
+    float: left;
+    padding: 0px 20px;
+}
